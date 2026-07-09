@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yilia Lu · Software Engineer in Toronto</title>
+<meta name="description" content="Zihui (Yilia) Lu, new-grad software engineer in Toronto. C++, C#/.NET, Python, React/TypeScript. B.Eng Computer Engineering, University of Toronto.">
+<meta property="og:title" content="Yilia Lu · Software Engineer in Toronto">
+<meta property="og:description" content="New-grad software engineer (U of T Computer Engineering ’25). C++, C#/.NET, Python, React/TypeScript. Open to full-time roles in Canada.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/img/headshot.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍁</text></svg>">
+</head>
+<body>
+
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a class="nav-name" href="#top">Yilia&nbsp;Lu</a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#beyond">Beyond</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-light nav-cta" href="assets/resume.pdf" target="_blank" rel="noopener">Résumé</a>
+  </div>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Software engineer · Toronto, Canada</p>
+        <h1>Hi, I’m <span class="hl">Yilia&nbsp;Lu</span>.</h1>
+        <p class="hero-sub">
+          I build software that saves people time, from C# release tooling that cut
+          manual steps by <strong>90%</strong> at SOTI to a construction-finance
+          SaaS now <strong>running in production</strong> with real users.
+          At home across the stack: C++, C#/.NET, Python, and React/TypeScript.
+        </p>
+        <p class="badge"><span class="dot" aria-hidden="true"></span>Open to full-time software roles in Toronto or remote across Canada</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="assets/resume.pdf" target="_blank" rel="noopener">Download résumé</a>
+          <a class="btn btn-ghost" href="https://github.com/AliZe198" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/zihui-lu-yilia/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn-ghost" href="mailto:luzihui.yilia@gmail.com">Email me</a>
+        </div>
+        <p class="hero-meta">Zihui (Yilia) Lu · B.Eng Computer Engineering, University of Toronto ’25 · English / Mandarin / Cantonese</p>
+      </div>
+      <figure class="hero-portrait">
+        <img src="assets/img/headshot.jpg" alt="Portrait of Yilia Lu" width="1000" height="1000">
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section class="section skills" aria-label="Technical skills">
+    <div class="wrap">
+      <dl class="skill-rows">
+        <div class="skill-row"><dt>Languages</dt><dd>C/C++ · C#/.NET · Python · JavaScript/TypeScript · SQL</dd></div>
+        <div class="skill-row"><dt>Frontend</dt><dd>React · Next.js · HTML/CSS</dd></div>
+        <div class="skill-row"><dt>Backend &amp; data</dt><dd>Node.js · .NET Core · PostgreSQL · MongoDB · REST APIs</dd></div>
+        <div class="skill-row"><dt>Tools</dt><dd>Git · Jenkins CI/CD · Docker · Jira · PyTorch · Linux</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <p class="eyebrow">Experience</p>
+      <h2>Where I’ve worked</h2>
+
+      <article class="job reveal">
+        <div class="job-head">
+          <h3>Shenzhen LaitCloud Technology</h3>
+          <p class="job-when">Jan – Jun 2026</p>
+        </div>
+        <p class="job-role">Software Developer Intern &amp; Media Content Creator</p>
+        <ul>
+          <li>Built and deployed a production multi-tenant SaaS for construction finance tracking (React/TypeScript frontend, Node.js/MongoDB backend), serving real users with role-based access and JWT authentication. <a href="https://nsj.laitcloud.com/" target="_blank" rel="noopener">See it live ↗</a></li>
+          <li>Produced promotional video content with CapCut Pro, AI agents, Remotion, and Hyperframe.</li>
+        </ul>
+      </article>
+
+      <article class="job reveal">
+        <div class="job-head">
+          <h3>SOTI Inc.</h3>
+          <p class="job-when">May 2022 – Aug 2023 · 16-month internship</p>
+        </div>
+        <p class="job-role">Software Developer Intern</p>
+        <ul>
+          <li>Designed a C# tool with the Octokit SDK that auto-generates pull requests for managed components, cutting manual steps by <strong>90%</strong> and saving 3+ hours per task, then wired it into the Jenkins pipeline to speed up team deployments.</li>
+          <li>Built a C# service tracking <strong>500+ BDD tests in real time</strong>, cutting failure-diagnosis time from 2 hours to 30 minutes, and resolved test failures to keep the pipeline trustworthy.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section-alt" id="projects">
+    <div class="wrap">
+      <p class="eyebrow">Projects</p>
+      <h2>Things I’ve built</h2>
+      <div class="cards">
+        <article class="card reveal">
+          <img class="card-img" src="assets/img/capstone.jpg" alt="Yilia and teammates presenting the school food dashboard capstone poster" loading="lazy">
+          <div class="card-body">
+            <h3>School Food Program Dashboard</h3>
+            <p class="stack">Next.js · TypeScript · React · Node.js</p>
+            <p>Led a U of T capstone team rebuilding a national nutrition-data site: frontend performance up <strong>78%</strong> (PageSpeed 49 → 87) via code-splitting and SSR, REST APIs serving 1,000+ monthly users, plus interactive data visualizations.</p>
+            <a class="card-link" href="https://www.canadianschoolfood.ca/" target="_blank" rel="noopener">Visit the live site ↗</a>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card-body">
+            <h3>Toronto GIS Map Engine</h3>
+            <p class="stack">C++ · EZGL · Valgrind</p>
+            <p>A high-performance map renderer for Toronto using Dijkstra’s algorithm with a <strong>95%</strong> query success rate. Cut memory leaks by <strong>70%</strong> through Valgrind profiling and smart-pointer refactoring.</p>
+          </div>
+        </article>
+        <article class="card reveal">
+          <div class="card-body">
+            <h3>Face Mask Detection System</h3>
+            <p class="stack">Python · PyTorch · CNN</p>
+            <p>Trained a CNN to <strong>96%</strong> accuracy (from a 65% baseline) with hyperparameter tuning and k-fold cross-validation, processing 10,000+ images with data augmentation to curb overfitting.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section" id="education">
+    <div class="wrap edu">
+      <div class="edu-text">
+        <p class="eyebrow">Education</p>
+        <h2>University of Toronto</h2>
+        <p class="job-role">B.Eng, Computer Engineering · Minor in Artificial Intelligence &amp; Business</p>
+        <p class="job-when">Graduated May 2025</p>
+        <p>Key courses: Data Structures &amp; Algorithms, Computer Networks, Databases, Machine Learning.</p>
+        <p>Outside class I tutored 30+ high-school students in STEM, lifting their grades by 20% on average.</p>
+      </div>
+      <figure class="edu-photo reveal">
+        <img src="assets/img/grad-lawn.jpg" alt="Yilia in convocation gown holding flowers in front of University College, University of Toronto" loading="lazy">
+        <figcaption>Convocation day, front campus</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section section-alt" id="beyond">
+    <div class="wrap">
+      <p class="eyebrow">Beyond the code</p>
+      <h2>A few honest snapshots</h2>
+      <div class="gallery">
+        <figure class="reveal"><img src="assets/img/at-desk.jpg" alt="Yilia at her desk during her SOTI internship" loading="lazy"><figcaption>Desk 336, SOTI internship</figcaption></figure>
+        <figure class="reveal"><img src="assets/img/team-lunch.jpg" alt="Team lunch with SOTI colleagues" loading="lazy"><figcaption>Team lunch with the SOTI crew</figcaption></figure>
+        <figure class="reveal"><img src="assets/img/grad-door.jpg" alt="Yilia holding a bouquet at the Knox College doorway" loading="lazy"><figcaption>Knox College, graduation week</figcaption></figure>
+        <figure class="reveal"><img src="assets/img/marina.jpg" alt="Yilia at a marina on Lake Ontario" loading="lazy"><figcaption>Lake Ontario weekends</figcaption></figure>
+        <figure class="reveal"><img src="assets/img/dog.jpg" alt="A fluffy white dog sitting in dandelions" loading="lazy"><figcaption>Chief morale officer</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="wrap contact-inner">
+      <p class="eyebrow eyebrow-light">Contact</p>
+      <h2>Let’s talk.</h2>
+      <p class="contact-sub">Hiring for a software role in Canada? I’d love to hear about it.</p>
+      <div class="hero-actions">
+        <a class="btn btn-light" href="mailto:luzihui.yilia@gmail.com">luzihui.yilia@gmail.com</a>
+        <a class="btn btn-outline" href="tel:+16478338682">647-833-8682</a>
+        <a class="btn btn-outline" href="https://github.com/AliZe198" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn-outline" href="https://www.linkedin.com/in/zihui-lu-yilia/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-outline" href="assets/resume.pdf" target="_blank" rel="noopener">Résumé (PDF)</a>
+      </div>
+      <p class="footer-note">© 2026 Zihui (Yilia) Lu · Toronto, Canada</p>
+    </div>
+  </section>
+</main>
+
+<script>
+  const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!prefersReduced && 'IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+  } else {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('in'));
+  }
+</script>
+</body>
+</html>

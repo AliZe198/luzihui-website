@@ -1,0 +1,15 @@
+# macOS 系统文件
+.DS_Store
+
+# 编辑器配置（如果你用 VS Code 等）
+.vscode/
+.idea/
+
+# 临时文件
+*.log
+
+# 临时文件夹
+.claude/
+
+# 资源文件夹
+assets-photos-resumes/
