@@ -1,12 +1,14 @@
 # Zihui Lu — Portfolio Website
 
-A personal portfolio site for Zihui Lu, a new-grad software engineer based in Toronto, Canada.
+Hi, my name is Zihui Lu. Or you can call me Yilia.
 
-**Live site:** https://alize198.github.io/ *(adjust if using a custom domain or different host)*
+I am a software developer based in Toronto, Canada.
+
+This personal portfolio site is built to showcase projects and experience while job searching.
+
+**Live site:** [https://alize198.github.io/luzihui-website/]()
 
 ## Tech stack
-
-Plain HTML, CSS, and a small amount of vanilla JavaScript — no build step, no framework, no dependencies.
 
 - `index.html` — page structure and content
 - `style.css` — all styling
@@ -14,20 +16,9 @@ Plain HTML, CSS, and a small amount of vanilla JavaScript — no build step, no 
 
 ## Running locally
 
-No build tools needed. Just open the file directly:
-
-```bash
-open index.html
 ```
-
-Or serve it with any static file server, e.g.:
-
-```bash
-python3 -m http.server
+git clone https://github.com/AliZe198/luzihui-website.git
+cd luzihui-website
+# Open index.html in your browser, or use a local server:
+python3 -m http.server 8000
 ```
-
-then visit `http://localhost:8000`.
-
-## Deployment
-
-This site is static and can be hosted on any static host (GitHub Pages, Netlify, Vercel, etc.). For GitHub Pages, enable Pages for this repo and point it at the `main` branch.
