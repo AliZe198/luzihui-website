@@ -6,7 +6,7 @@ I am a software developer based in Toronto, Canada.
 
 This personal portfolio site is built to showcase projects and experience while job searching.
 
-**Live site:** [https://alize198.github.io/luzihui-website/]()
+**Live site:** [alize198.github.io/luzihui-website](https://alize198.github.io/luzihui-website/)
 
 ## Tech stack
 
