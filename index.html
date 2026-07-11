@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zihui Lu · Software Engineer in Toronto</title>
-<meta name="description" content="Zihui Lu, new-grad software engineer in Toronto. C++, C#/.NET, Python, React/TypeScript. B.Eng Computer Engineering, University of Toronto.">
+<meta name="description" content="Zihui Lu, new-grad software engineer in Toronto. React, Next.js, TypeScript, Node.js — plus C#/.NET and C++. B.Eng Computer Engineering, University of Toronto.">
 <meta property="og:title" content="Zihui Lu · Software Engineer in Toronto">
-<meta property="og:description" content="New-grad software engineer (U of T Computer Engineering ’25). C++, C#/.NET, Python, React/TypeScript. Open to full-time roles in Canada.">
+<meta property="og:description" content="New-grad software engineer (U of T Computer Engineering ’25). React, Next.js, TypeScript, Node.js, C#/.NET, C++. Open to full-time roles in Canada.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="assets/img/headshot.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +42,7 @@
           I build software that saves people time, from C# release tooling that cut
           manual steps by <strong>90%</strong> at SOTI to a construction-finance
           SaaS now <strong>running in production</strong> with real users.
-          My stack includes C++, C#/.NET, Python, and React/TypeScript.
+          My stack spans React/TypeScript, Next.js, and Node.js, plus C#/.NET and C++.
         </p>
         <p class="badge"><span class="dot" aria-hidden="true"></span>Open to full-time software roles in Toronto or remote across Canada</p>
         <div class="hero-actions">
@@ -63,10 +63,10 @@
   <section class="section skills" aria-label="Technical skills">
     <div class="wrap">
       <dl class="skill-rows">
-        <div class="skill-row"><dt>Languages</dt><dd>C/C++ · C#/.NET · Python · JavaScript/TypeScript · SQL</dd></div>
-        <div class="skill-row"><dt>Frontend</dt><dd>React · Next.js · HTML/CSS</dd></div>
-        <div class="skill-row"><dt>Backend &amp; data</dt><dd>Node.js · .NET Core · PostgreSQL · MongoDB · REST APIs</dd></div>
-        <div class="skill-row"><dt>Tools</dt><dd>Git · Jenkins CI/CD · Docker · Jira · PyTorch · Linux</dd></div>
+        <div class="skill-row"><dt>Frontend</dt><dd>React · Next.js · TypeScript · JavaScript (ES6+) · HTML5/CSS3 · Tailwind CSS</dd></div>
+        <div class="skill-row"><dt>Backend &amp; data</dt><dd>Node.js · Express · REST APIs · JWT · PostgreSQL · MongoDB · SQLite · Supabase</dd></div>
+        <div class="skill-row"><dt>Tools &amp; testing</dt><dd>Git · Docker · Jenkins CI/CD · Nginx · Jira · Vitest</dd></div>
+        <div class="skill-row"><dt>Other languages</dt><dd>C#/.NET · C/C++ (STL, Valgrind) · Python (PyTorch, NumPy)</dd></div>
       </dl>
     </div>
   </section>
@@ -82,9 +82,10 @@
           <h3>Shenzhen LaitCloud Technology</h3>
           <p class="job-when">Jan – Jun 2026 · 6-month internship</p>
         </div>
-        <p class="job-role">Full-Stack Developer Intern</p>
+        <p class="job-role">Software Developer Intern</p>
         <ul>
-          <li>Built and deployed a production multi-tenant SaaS for construction finance tracking (React/TypeScript frontend, Node.js/MongoDB backend), serving real users with role-based access and JWT authentication. <a href="https://nsj.laitcloud.com/" target="_blank" rel="noopener">See it live ↗</a></li>
+          <li>Built and deployed a production multi-tenant SaaS for construction finance tracking (React/TypeScript frontend, Node.js/Express + MongoDB backend) with database-per-tenant isolation, serving real users. <a href="https://nsj.laitcloud.com/" target="_blank" rel="noopener">See it live ↗</a></li>
+          <li>Implemented JWT authentication, bcrypt-hashed credentials, and role-based access control across super-admin / distributor / tenant roles, deployed on a self-managed cloud server with Docker and Nginx.</li>
           <li>Produced promotional video content with CapCut Pro, AI agents, Remotion, and Hyperframe.</li>
         </ul>
       </article>
@@ -110,6 +111,14 @@
       <h2>Things I’ve built</h2>
       <div class="cards">
         <article class="card reveal">
+          <div class="card-body">
+            <h3>Simple Skill Manager</h3>
+            <p class="stack">Next.js 15 · React · TypeScript · SQLite</p>
+            <p>A local full-stack skill-library app built with Next.js 15 (App Router) and SQLite (better-sqlite3), published as an npm package. Handles content-hash deduplication and per-agent symlink/copy management with realpath safety checks across <strong>13 auto-detected AI coding agents</strong>. Adds a marketplace, GitHub backup/sync, an MCP-config viewer, and a bilingual EN/中文 UI, with core logic covered by Vitest tests.</p>
+            <a class="card-link" href="https://github.com/AliZe198" target="_blank" rel="noopener">View on GitHub ↗</a>
+          </div>
+        </article>
+        <article class="card reveal">
           <img class="card-img" src="assets/img/capstone.jpg" alt="Zihui and teammates presenting the school food dashboard capstone poster" loading="lazy">
           <div class="card-body">
             <h3>School Food Program Dashboard</h3>
@@ -123,13 +132,6 @@
             <h3>Toronto GIS Map Engine</h3>
             <p class="stack">C++ · EZGL · Valgrind</p>
             <p>A high-performance map renderer for Toronto using Dijkstra’s algorithm with a <strong>95%</strong> query success rate. Cut memory leaks by <strong>70%</strong> through Valgrind profiling and smart-pointer refactoring.</p>
-          </div>
-        </article>
-        <article class="card reveal">
-          <div class="card-body">
-            <h3>Face Mask Detection System</h3>
-            <p class="stack">Python · PyTorch · CNN</p>
-            <p>Trained a CNN to <strong>96%</strong> accuracy (from a 65% baseline) with hyperparameter tuning and k-fold cross-validation, processing 10,000+ images with data augmentation to curb overfitting.</p>
           </div>
         </article>
       </div>
